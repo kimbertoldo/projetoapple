@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>FancyCollection®</title>
+    <style>
+        body{
+            margin: 0;
+        }
+                        /* no menu ul tiramos a margem, colocamos a faixa de cor do menu e tiramos as bolinhas da lista do menu */
+        #menu ul{
+            margin: 0;
+            background-color: rgba(255, 140, 249, 0.932);
+            list-style: none;
+            text-align: center;
+        }
+                    /* no menu li ao colocar display o menu sai da forma de coluna e os itens ficam lado a lado */
+        #menu ul li{
+            display: inline;
+        }
+                    /* no menu li a, o padding vai distanciar um pouco os itens, um px será pra distanciar o lado e o outro px pra ajustar a parte de baixo. 
+                    O color é para cor da fonte e o text decoraction é para tirar o sublinhado do link no texto */
+        #menu ul li a{
+            padding: 10px 10px;
+            display: inline-block;
+            color: azure;
+            text-decoration: none;
+        }
+                    /* esse a:hover vai dar um efeito nos itens quando passar o mouse em cima*/
+        #menu ul li a:hover{
+            color: rgb(215, 68, 235);
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="menu">
+
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Youtube</a></li>
+    </ul>
+
+</div>
+</body>
+</html>
